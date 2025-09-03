@@ -1,0 +1,14 @@
+Duration: 00:00:0.00859	Memory: VmSize: 0.01 VmRSS: 0.01	getSeqLengths
+Duration: 00:00:1.83	Memory: VmSize: 0.02 VmRSS: 0.03	parseTabularBlast
+Duration: 00:00:0.001133	Memory: VmSize: 0.02 VmRSS: 0.03	groupParalogs get unique paralogs
+Duration: 00:00:0.0002379	Memory: VmSize: 0.02 VmRSS: 0.03	groupParalogs getParalogClusters
+Duration: 00:00:0.000361	Memory: VmSize: 0.02 VmRSS: 0.03	groupParalogs over @$par_clusters
+Duration: 00:00:0.3227	Memory: VmSize: 0.02 VmRSS: 0.03	groupParalogs
+Duration: 00:00:0.05133	Memory: VmSize: 0.03 VmRSS: 0.03	findOrthos
+Duration: 00:00:0.03261	Memory: VmSize: 0.03 VmRSS: 0.03	writeHitsFile
+time: 00:00:0.001437 calls: 179 checkCompleteMerge
+time: 00:00:0.01781 calls: 4683 checkCompleteLinkage
+time: 00:00:0.002847 calls: 2019 new_cluster
+Duration: 00:00:0.03707	Memory: VmSize: 0.03 VmRSS: 0.04	clusterCompleteLinkage
+Duration: 00:00:0.1469	Memory: VmSize: 0.04 VmRSS: 0.04	printClusters
+Duration: 00:00:3.157	Memory: VmSize: 0.04 VmRSS: 0.04	Total

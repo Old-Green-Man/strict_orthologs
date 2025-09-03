@@ -10,6 +10,17 @@ together. This could happen with legitimate sequences also, but should be
 relatively rare. The goal here is to have reliable clusters for doing
 phylogenetic analyses, even if some clusters may be split etc (higher specificity; lower sensitivity).
 
+The input blast outputs should be in tabular format as specified below. In addition, all HSPs between genome A and genome B should be together in the blast output. This is assumed for efficient processing. The output should include hits between genes in the same genome.
+
+The gene "names" in columns 1 and 2 should be in the following format genomeA_geneX. The underscore is the default separator, but can be changed with the -sep option.
+
+You can test the program on the example.blastp and example.len files in the example/ directory. For example
+mkdir tmp; cd tmp
+
+`strict_orthologs.pl example.len example.blastp > ortho.out 2> ortho.err`
+
+The main output will be in ortho.out. A file called rbh.dat will be written that can be used to rerun the program without the blast output using the -rbh_file option.
+
 **The following help information is printed if the program is run without arguments.**
 
 usage: ./strict_orthologs.pl gene-lengths-file [tabular-blast-output-file tabular-blast-output-file2 ...] [options]

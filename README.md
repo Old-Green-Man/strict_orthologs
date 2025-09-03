@@ -29,13 +29,14 @@ The main output will be in ortho.out. A file called rbh.dat will be written that
 A line in the main output looks like this:
 `>1 size=6 bits_median=109 pcnt_median=59.28 1_1417:73.7:128:75 2_867:73.7:128:75 3_288:73.7:128:75 4_47:54.3:103:81 4_538:56:103:73 5_1029:73.7:128:76`
 
-The \>1 is the ortholog index.
-size=6 means there are 6 genes in this group
-The bit and percent medians are the all vs all medians within the group.
-Each gene is annotated like: 1_1417:73.7:128:75, where
-1_1417 means gene 1417 in genome 1
-73.7 is the median percent identity between this gene and the others
-128 is the same for the bit scores
+The \>1 is the ortholog index.<br/>
+size=6 means there are 6 genes in this group<br/>
+The bit and percent medians are the all vs all medians within the group.<br/>
+
+Each gene is annotated like: 1_1417:73.7:128:75, where<br/>
+1_1417 means gene 1417 in genome 1<br/>
+73.7 is the median percent identity between this gene and the others<br/>
+128 is the same for the bit scores<br/>
 75 is the sequence length
 
 **The following help information is printed if the program is run without arguments.**

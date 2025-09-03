@@ -14,12 +14,13 @@ specificity; lower sensitivity).
 
 The input blast outputs should be in tabular format as specified below. In addition, all HSPs between genome A and genome B should be together in the blast output. This is assumed for efficient processing. The output should include hits between genes in the same genome.
 
-The gene "names" in columns 1 and 2 should be in the following format genomeA_geneX. The underscore is the default separator, but can be changed with the -sep option.
+The gene "names" in columns 1 and 2 should be in the following format: genomeA_geneX. The underscore is the default separator, but can be changed with the -sep option.
 
 You can test the program on the example.blastp and example.len files in the example/ directory. For example
-mkdir tmp; cd tmp
 
-`strict_orthologs.pl example.len example.blastp > ortho.out 2> ortho.err`
+`mkdir tmp;
+cd tmp
+strict_orthologs.pl example.len example.blastp > ortho.out 2> ortho.err`
 
 The main output will be in ortho.out. A file called rbh.dat will be written that can be used to rerun the program without the blast output using the -rbh_file option.
 

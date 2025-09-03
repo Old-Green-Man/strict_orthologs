@@ -1,0 +1,9 @@
+Duration: 00:00:0.01148	Memory: VmSize: 0.01 VmRSS: 0.01	getSeqLengths
+Duration: 00:00:0.04004	Memory: VmSize: 0.02 VmRSS: 0.02	parseRecipricalBestHits
+Duration: 00:00:0.06269	Memory: VmSize: 0.03 VmRSS: 0.03	findOrthos
+time: 00:00:0.001862 calls: 179 checkCompleteMerge
+time: 00:00:0.02222 calls: 4683 checkCompleteLinkage
+time: 00:00:0.003768 calls: 2019 new_cluster
+Duration: 00:00:0.04598	Memory: VmSize: 0.03 VmRSS: 0.03	clusterCompleteLinkage
+Duration: 00:00:0.1572	Memory: VmSize: 0.04 VmRSS: 0.04	printClusters
+Duration: 00:00:0.8797	Memory: VmSize: 0.04 VmRSS: 0.04	Total

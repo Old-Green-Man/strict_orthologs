@@ -10,7 +10,7 @@ together. This could happen with legitimate sequences also, but should be
 relatively rare. The goal here is to have reliable clusters for doing
 phylogenetic analyses, even if some clusters may be split etc.
 
-The following help information is printed if the program is run without arguments.
+# The following help information is printed if the program is run without arguments.
 
 usage: ./strict_orthologs.pl gene-lengths-file [tabular-blast-output-file tabular-blast-output-file2 ...] [options]
 
@@ -20,7 +20,7 @@ send"
 
 When run the first time on blastoutput it will write a file rbh.dat.  This can be read in using -rbh_file=rbh.dat without needing the blast outputs and speeding things up.
 
-gene-lengths-file should contain the lengths of all genes (format: len\<TAB\>id)
+gene-lengths-file should contain the lengths of all genes (format: len`<TAB>`id)
 
 options
 -------

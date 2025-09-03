@@ -18,9 +18,11 @@ The gene "names" in columns 1 and 2 should be in the following format: genomeA_g
 
 You can test the program on the example.blastp and example.len files in the example/ directory. For example
 
-```mkdir tmp
+```
+mkdir tmp
 cd tmp
-strict_orthologs.pl example.len example.blastp > ortho.out 2> ortho.err```
+strict_orthologs.pl example.len example.blastp > ortho.out 2> ortho.err
+```
 
 The main output will be in ortho.out. A file called rbh.dat will be written that can be used to rerun the program without the blast output using the -rbh_file option.
 

@@ -28,6 +28,7 @@ The main output will be in ortho.out. A file called rbh.dat will be written that
 
 A line in the main output looks like this:
 `>1 size=6 bits_median=109 pcnt_median=59.28 1_1417:73.7:128:75 2_867:73.7:128:75 3_288:73.7:128:75 4_47:54.3:103:81 4_538:56:103:73 5_1029:73.7:128:76`
+
 The \>1 is the ortholog index.
 size=6 means there are 6 genes in this group
 The bit and percent medians are the all vs all medians within the group.

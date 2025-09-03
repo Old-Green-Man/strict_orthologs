@@ -7,8 +7,10 @@ avoided. The downside is that a single gene can split an ortholog group into two
 groups if it has a single spurious reciprocal best hit. I've seen this happen
 with misannotated genes where two closely related genomes were assembled
 together. This could happen with legitimate sequences also, but should be
-relatively rare. The goal here is to have reliable clusters for doing
-phylogenetic analyses, even if some clusters may be split etc (higher specificity; lower sensitivity).
+relatively rare, but highly dependent on the genomes under consideration and
+their phylogenetic distribution. The goal here is to have reliable clusters for
+doing phylogenetic analyses, even if some clusters may be split etc (higher
+specificity; lower sensitivity).
 
 The input blast outputs should be in tabular format as specified below. In addition, all HSPs between genome A and genome B should be together in the blast output. This is assumed for efficient processing. The output should include hits between genes in the same genome.
 

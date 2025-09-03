@@ -20,7 +20,7 @@ send"
 
 When run the first time on blastoutput it will write a file rbh.dat.  This can be read in using -rbh_file=rbh.dat without needing the blast outputs and speeding things up.
 
-gene-lengths-file should contain the lengths of all genes (format: len<TAB>id)
+gene-lengths-file should contain the lengths of all genes (format: len\<TAB\>id)
 
 options
 -------

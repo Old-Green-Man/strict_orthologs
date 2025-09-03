@@ -8,7 +8,7 @@ groups if it has a single spurious reciprocal best hit. I've seen this happen
 with misannotated genes where two closely related genomes were assembled
 together. This could happen with legitimate sequences also, but should be
 relatively rare. The goal here is to have reliable clusters for doing
-phylogenetic analyses, even if some clusters may be split etc.
+phylogenetic analyses, even if some clusters may be split etc (higher specificity; lower sensitivity).
 
 **The following help information is printed if the program is run without arguments.**
 

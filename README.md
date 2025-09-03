@@ -39,6 +39,8 @@ Each gene is annotated like: 1_1417:73.7:128:75, where<br/>
 128 is the same for the bit scores<br/>
 75 is the sequence length
 
+Note that genome 4 has two genes in this group, presumably paralogs within the context of this small sample size example.
+
 **The following help information is printed if the program is run without arguments.**
 
 usage: ./strict_orthologs.pl gene-lengths-file [tabular-blast-output-file tabular-blast-output-file2 ...] [options]

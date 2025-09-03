@@ -28,10 +28,6 @@ options
  running groupParalogs and should include all relevant reciprocal best hits
  needed for clustering.
 
--parsedHits preparsed %HITS data - deprecated
-
--parsedSelf preparsed %PARALOGS data - deprecated
-
 -sep (default: _) separator between taxon name and gene in the query and sbjct ids.
  original blast search.  Each line should have length and id separated by
  space.

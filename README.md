@@ -7,7 +7,7 @@ avoided. The downside is that a single gene can split an ortholog group into two
 groups if it has a single spurious reciprocal best hit. I've seen this happen
 with misannotated genes where two closely related genomes were assembled
 together. This could happen with legitimate sequences also, but should be
-relatively rare, but highly dependent on the genomes under consideration and
+relatively rare and highly dependent on the genomes under consideration and
 their phylogenetic distribution. The goal here is to have reliable clusters for
 doing phylogenetic analyses, even if some clusters may be split etc (higher
 specificity; lower sensitivity).
